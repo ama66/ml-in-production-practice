@@ -73,7 +73,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ama66
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: ${{ secrets.GH_TOKEN }}
 
       - name: Extract metadata (tags, labels) for Docker
         id: meta
@@ -105,7 +105,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ama66
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: ${{ secrets.GH_TOKEN }}
 
       - name: Extract metadata (tags, labels) for Docker
         id: meta
